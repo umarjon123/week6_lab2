@@ -40,6 +40,7 @@ double seriesC(int n) {
 
 
 double seriesD(int n) {
+
     double sum = 0.0;
     for (int i = 1; i <= n; ++i) {
         sum += (2 * i * pi) / pow(e, i);

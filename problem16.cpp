@@ -15,6 +15,7 @@ void printMatrix(int n) {
 }
 
 
+
 int main() {
     srand((unsigned)time(nullptr)); // seed RNG
     int n;

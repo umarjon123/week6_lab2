@@ -8,6 +8,7 @@ bool isValidPassword(const string& password) {
     int digitCount = 0;
     for (char c : password) {
 
+
         if (!isalnum(static_cast<unsigned char>(c))) return false;
         if (isdigit(static_cast<unsigned char>(c))) digitCount++;
     }

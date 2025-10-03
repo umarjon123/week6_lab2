@@ -4,6 +4,7 @@ using namespace std;
 void displaySortedNumber (double a, double b, double c) {
     if (a > b) {
         double temp = a;
+
         a = b;
         b = temp;
     }

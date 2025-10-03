@@ -4,6 +4,7 @@
 using namespace std;
 
 
+
 double futureInvestmentValue(double investmentAmount, double monthlyInterestRate, int years) {
     int months = years * 12;
     return investmentAmount * pow(1.0 + monthlyInterestRate, months);
