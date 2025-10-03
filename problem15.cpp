@@ -4,6 +4,7 @@ using namespace std;
 
 void printASCII(char ch1, char ch2, int numberPerLine) {
     int count = 0;
+
     if (ch2 < ch1) {
 
         char tmp = ch1; ch1 = ch2; ch2 = tmp;

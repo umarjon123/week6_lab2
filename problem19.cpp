@@ -22,7 +22,8 @@ void displaySortedNumber (double a, double b, double c) {
 
 int main() {
     double num1, num2, num3;
-    cout << "Enter three numbers: ";
+    cout << "Enter three numbers"
+            ": ";
     cin >> num1 >> num2 >> num3;
     displaySortedNumber(num1, num2, num3);
     return 0;

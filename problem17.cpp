@@ -4,6 +4,7 @@
 #include <vector>
 #include <iomanip>
 
+
 bool isPalindrome(int n) {
     std::string s = std::to_string(n);
     std::string reversed_s = s;

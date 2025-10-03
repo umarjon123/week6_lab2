@@ -16,6 +16,7 @@ int main() {
     int point = 0;
 
 
+
     switch (sum) {
 
         case 7:

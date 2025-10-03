@@ -38,6 +38,7 @@ double seriesC(int n) {
     return sum;
 }
 
+
 double seriesD(int n) {
     double sum = 0.0;
     for (int i = 1; i <= n; ++i) {
